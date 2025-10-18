@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "FIFA World Cup 2026",
+    "sport": "Soccer",
+    "date": "June 11 - July 19, 2026",
+    "location": "USA, Canada, Mexico",
+    "description": "The most prestigious tournament in international soccer",
+    "participants": "48 national teams",
+    "status": "upcoming"
+  },
+  {
+    "id": 2,
+    "name": "Summer Olympics 2028",
+    "sport": "Multi-Sport",
+    "date": "July 21 - August 6, 2028",
+    "location": "Los Angeles, USA",
+    "description": "The world's premier multi-sport event",
+    "participants": "200+ countries",
+    "status": "upcoming"
+  },
+  {
+    "id": 3,
+    "name": "ICC T20 World Cup 2026",
+    "sport": "Cricket",
+    "date": "October-November 2026",
+    "location": "India & Sri Lanka",
+    "description": "International Twenty20 cricket championship",
+    "participants": "20 national teams",
+    "status": "upcoming"
+  },
+  {
+    "id": 4,
+    "name": "NBA Finals 2025",
+    "sport": "Basketball",
+    "date": "June 2025",
+    "location": "USA",
+    "description": "Championship series of the National Basketball Association",
+    "participants": "Top 2 NBA teams",
+    "status": "upcoming"
+  },
+  {
+    "id": 5,
+    "name": "Wimbledon 2025",
+    "sport": "Tennis",
+    "date": "June 30 - July 13, 2025",
+    "location": "London, UK",
+    "description": "The oldest and most prestigious tennis tournament",
+    "participants": "World's top tennis players",
+    "status": "upcoming"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "workout_streak_7",
+    "name": "Week Warrior",
+    "description": "Complete 7 consecutive days of workouts",
+    "icon": "💪",
+    "requirement": 7,
+    "type": "workout_streak"
+  },
+  {
+    "id": "workout_streak_30",
+    "name": "Monthly Master",
+    "description": "Complete 30 consecutive days of workouts",
+    "icon": "🏆",
+    "requirement": 30,
+    "type": "workout_streak"
+  },
+  {
+    "id": "total_workouts_10",
+    "name": "Getting Started",
+    "description": "Complete 10 total workouts",
+    "icon": "🌟",
+    "requirement": 10,
+    "type": "total_workouts"
+  },
+  {
+    "id": "total_workouts_50",
+    "name": "Dedicated Athlete",
+    "description": "Complete 50 total workouts",
+    "icon": "⭐",
+    "requirement": 50,
+    "type": "total_workouts"
+  },
+  {
+    "id": "calories_5000",
+    "name": "Calorie Crusher",
+    "description": "Burn 5000 total calories",
+    "icon": "🔥",
+    "requirement": 5000,
+    "type": "total_calories"
+  }
+]
