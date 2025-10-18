@@ -1,20 +1,13 @@
-import React, { useState } from 'react';
-import { Search, BookOpen } from 'lucide-react';
-import sportsData from '../data/sportsData.json';
-import SportCard from '../components/SportCard';
+import React from 'react';
+import { BookOpen } from 'lucide-react';
 
 const SportsEncyclopedia = () => {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState('All');
-
-  const categories = ['All', ...new Set(sportsData.map(sport => sport.category))];
-
-  const filteredSports = sportsData.filter(sport => {
-    const matchesSearch = sport.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         sport.category.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesCategory = selectedCategory === 'All' || sport.category === selectedCategory;
-    return matchesSearch && matchesCategory;
-  });
+  const sports = [
+    { id: 1, name: 'Basketball', players: '5v5', category: 'Team Sports' },
+    { id: 2, name: 'Soccer', players: '11v11', category: 'Team Sports' },
+    { id: 3, name: 'Tennis', players: '1v1', category: 'Individual Sports' },
+    { id: 4, name: 'Cricket', players: '11v11', category: 'Team Sports' },
+  ];
 
   return (
     <div className="min-h-screen bg-gray-50 py-8">
@@ -24,53 +17,15 @@ const SportsEncyclopedia = () => {
           <h1 className="text-4xl font-bold text-gray-900">Sports Encyclopedia</h1>
         </div>
 
-        <p className="text-gray-600 mb-8">
-          Discover everything about your favorite sports - rules, equipment, positions, and how to play.
-        </p>
-
-        <div className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="relative">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
-              <input
-                type="text"
-                placeholder="Search sports..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-              />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {sports.map(sport => (
+            <div key={sport.id} className="bg-white rounded-lg shadow-md p-6">
+              <h3 className="text-2xl font-bold text-gray-800 mb-2">{sport.name}</h3>
+              <p className="text-gray-600">Players: {sport.players}</p>
+              <p className="text-gray-600">Category: {sport.category}</p>
             </div>
-
-            <div>
-              <select
-                value={selectedCategory}
-                onChange={(e) => setSelectedCategory(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-              >
-                {categories.map(category => (
-                  <option key={category} value={category}>{category}</option>
-                ))}
-              </select>
-            </div>
-          </div>
-
-          <div className="mt-4 text-sm text-gray-600">
-            Showing {filteredSports.length} of {sportsData.length} sports
-          </div>
+          ))}
         </div>
-
-        {filteredSports.length === 0 ? (
-          <div className="bg-white rounded-lg shadow-md p-12 text-center">
-            <Search className="h-16 w-16 text-gray-400 mx-auto mb-4" />
-            <p className="text-gray-600">No sports found matching your search.</p>
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {filteredSports.map(sport => (
-              <SportCard key={sport.id} sport={sport} />
-            ))}
-          </div>
-        )}
       </div>
     </div>
   );
