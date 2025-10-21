@@ -82,17 +82,29 @@ Lucide React - Icons
 
 📁 Project Structure
 fitlab-pro/
+
 ├── src/
+
 │   ├── components/       # Reusable UI components
+
 │   ├── pages/            # Main application pages
+
 │   ├── context/          # Global state management
+
 │   ├── data/             # Static JSON data
+
 │   ├── utils/            # Utility functions
+
 │   ├── assets/           # Images and icons
+
 │   ├── App.jsx           # Main app component
+
 │   └── index.js          # Entry point
+
 ├── public/               # Static files
+
 └── package.json          # Dependencies
+
 🎨 Key Features Explained
 Workout Tracker
 Uses MET (Metabolic Equivalent of Task) values to accurately calculate calories burned based on:
