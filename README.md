@@ -59,7 +59,7 @@ npm or yarn package manager
 
 Installation
 bash# Clone the repository
-git clone https://github.com/YOUR_USERNAME/fitlab-pro.git
+git clone (https://github.com/rawatpradeep038-dot/FitLab-SportsScienceApp.git)
 
 # Navigate to project directory
 cd fitlab-pro
