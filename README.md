@@ -75,9 +75,13 @@ bashnpm run build
 🛠️ Built With
 
 React - Frontend framework
+
 React Router - Navigation
+
 Tailwind CSS - Styling
+
 Recharts - Data visualization
+
 Lucide React - Icons
 
 📁 Project Structure
