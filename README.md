@@ -64,7 +64,7 @@ A comprehensive fitness tracking and sports information web application built wi
 
 1. **Clone the repository**
    ```bash
-  ![FitLab Pro Demo](fitlab-pro/ezgif.com-video-to-gif-converter%20(1).gif)
+ git clone https://github.com/pradeepsinghrawat038/fitlab-pro.git
    cd fitlab-pro
    ```
 
@@ -86,7 +86,7 @@ A comprehensive fitness tracking and sports information web application built wi
 
 ## 🎬 Demo
 
-![FitLab Pro Demo](fitlab-pro/ezgif.com-video-to-gif-converter (1).gif)
+![FitLab Pro Demo](fitlab-pro/ezgif.com-video-to-gif-converter%20(1).gif)
 
 *Complete workflow showing all major features in action*
 
