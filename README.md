@@ -64,7 +64,7 @@ A comprehensive fitness tracking and sports information web application built wi
 
 1. **Clone the repository**
    ```bash
- git clone https://github.com/pradeepsinghrawat038/fitlab-pro.git
+   git clone https://github.com/pradeepsinghrawat038/fitlab-pro.git
    cd fitlab-pro
    ```
 
