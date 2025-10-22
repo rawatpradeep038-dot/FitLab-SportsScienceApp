@@ -5,7 +5,7 @@
     "sport": "Soccer",
     "date": "June 11 - July 19, 2026",
     "location": "USA, Canada, Mexico",
-    "description": "The most prestigious tournament in international soccer",
+    "description": "The most prestigious tournament in international soccer featuring 48 national teams competing for the ultimate prize",
     "participants": "48 national teams",
     "status": "upcoming"
   },
@@ -15,7 +15,7 @@
     "sport": "Multi-Sport",
     "date": "July 21 - August 6, 2028",
     "location": "Los Angeles, USA",
-    "description": "The world's premier multi-sport event",
+    "description": "The world's premier multi-sport event bringing together athletes from over 200 countries",
     "participants": "200+ countries",
     "status": "upcoming"
   },
@@ -25,7 +25,7 @@
     "sport": "Cricket",
     "date": "October-November 2026",
     "location": "India & Sri Lanka",
-    "description": "International Twenty20 cricket championship",
+    "description": "International Twenty20 cricket championship featuring the shortest format of the game",
     "participants": "20 national teams",
     "status": "upcoming"
   },
@@ -35,18 +35,88 @@
     "sport": "Basketball",
     "date": "June 2025",
     "location": "USA",
-    "description": "Championship series of the National Basketball Association",
+    "description": "Championship series of the National Basketball Association determining the season champion",
     "participants": "Top 2 NBA teams",
     "status": "upcoming"
   },
   {
     "id": 5,
-    "name": "Wimbledon 2025",
+    "name": "Wimbledon Championships 2025",
     "sport": "Tennis",
     "date": "June 30 - July 13, 2025",
-    "location": "London, UK",
-    "description": "The oldest and most prestigious tennis tournament",
+    "location": "London, United Kingdom",
+    "description": "The oldest and most prestigious tennis tournament in the world, played on grass courts",
     "participants": "World's top tennis players",
+    "status": "upcoming"
+  },
+  {
+    "id": 6,
+    "name": "UEFA Champions League Final 2025",
+    "sport": "Soccer",
+    "date": "May 31, 2025",
+    "location": "Munich, Germany",
+    "description": "Europe's elite club football competition final match crowning the best team in Europe",
+    "participants": "Top 2 European club teams",
+    "status": "upcoming"
+  },
+  {
+    "id": 7,
+    "name": "World Athletics Championships 2025",
+    "sport": "Athletics",
+    "date": "September 13-21, 2025",
+    "location": "Tokyo, Japan",
+    "description": "Biennial athletics competition featuring track and field events from around the globe",
+    "participants": "Athletes from 200+ countries",
+    "status": "upcoming"
+  },
+  {
+    "id": 8,
+    "name": "Super Bowl LIX",
+    "sport": "American Football",
+    "date": "February 9, 2025",
+    "location": "New Orleans, Louisiana, USA",
+    "description": "NFL championship game and one of the biggest sporting events in North America",
+    "participants": "Top 2 NFL teams",
+    "status": "past"
+  },
+  {
+    "id": 9,
+    "name": "ICC Cricket World Cup 2027",
+    "sport": "Cricket",
+    "date": "October-November 2027",
+    "location": "South Africa, Zimbabwe, Namibia",
+    "description": "One Day International cricket world championship featuring 50-over format",
+    "participants": "14 national teams",
+    "status": "upcoming"
+  },
+  {
+    "id": 10,
+    "name": "FIBA Basketball World Cup 2027",
+    "sport": "Basketball",
+    "date": "August-September 2027",
+    "location": "Qatar",
+    "description": "International basketball championship organized by FIBA",
+    "participants": "32 national teams",
+    "status": "upcoming"
+  },
+  {
+    "id": 11,
+    "name": "Rugby World Cup 2027",
+    "sport": "Rugby",
+    "date": "October-November 2027",
+    "location": "Australia",
+    "description": "Premier international rugby union competition held every four years",
+    "participants": "20 national teams",
+    "status": "upcoming"
+  },
+  {
+    "id": 12,
+    "name": "Tour de France 2025",
+    "sport": "Cycling",
+    "date": "July 2025",
+    "location": "France",
+    "description": "The world's most famous bicycle race covering approximately 3,500 kilometers",
+    "participants": "180+ professional cyclists",
     "status": "upcoming"
   }
 ]

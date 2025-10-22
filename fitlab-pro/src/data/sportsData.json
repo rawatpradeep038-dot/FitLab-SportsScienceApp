@@ -5,7 +5,12 @@
     "category": "Team Sports",
     "players": "5v5",
     "duration": "48 minutes (4 quarters)",
-    "equipment": ["Basketball", "Basketball hoop", "Court", "Athletic shoes"],
+    "equipment": [
+      "Basketball",
+      "Basketball hoop",
+      "Court",
+      "Athletic shoes"
+    ],
     "rules": [
       "Players score by shooting the ball through the opponent's hoop",
       "Dribbling is required when moving with the ball",
@@ -14,11 +19,26 @@
       "5 fouls per player before disqualification"
     ],
     "positions": [
-      {"name": "Point Guard", "role": "Primary ball handler, sets up plays"},
-      {"name": "Shooting Guard", "role": "Perimeter shooter, scorer"},
-      {"name": "Small Forward", "role": "Versatile player, inside and outside game"},
-      {"name": "Power Forward", "role": "Physical play, rebounds, mid-range shots"},
-      {"name": "Center", "role": "Tallest player, dominates the paint, blocks shots"}
+      {
+        "name": "Point Guard",
+        "role": "Primary ball handler, sets up plays"
+      },
+      {
+        "name": "Shooting Guard",
+        "role": "Perimeter shooter, scorer"
+      },
+      {
+        "name": "Small Forward",
+        "role": "Versatile player, inside and outside game"
+      },
+      {
+        "name": "Power Forward",
+        "role": "Physical play, rebounds, mid-range shots"
+      },
+      {
+        "name": "Center",
+        "role": "Tallest player, dominates the paint, blocks shots"
+      }
     ],
     "howToPlay": "Basketball is played by two teams trying to score points by shooting a ball through a 10-foot high hoop. Teams advance the ball by dribbling or passing. The team with the most points at the end wins."
   },
@@ -28,7 +48,13 @@
     "category": "Team Sports",
     "players": "11v11",
     "duration": "90 minutes (2 halves)",
-    "equipment": ["Soccer ball", "Goal posts", "Field", "Shin guards", "Cleats"],
+    "equipment": [
+      "Soccer ball",
+      "Goal posts",
+      "Field",
+      "Shin guards",
+      "Cleats"
+    ],
     "rules": [
       "Players cannot use hands except goalkeeper in penalty area",
       "Offside rule: attacker must have at least 2 opponents between them and goal",
@@ -37,10 +63,22 @@
       "Corner kicks when ball crosses goal line off defending team"
     ],
     "positions": [
-      {"name": "Goalkeeper", "role": "Protects the goal, only player who can use hands"},
-      {"name": "Defender", "role": "Prevents opponents from scoring"},
-      {"name": "Midfielder", "role": "Links defense and attack, controls tempo"},
-      {"name": "Forward/Striker", "role": "Primary goal scorer"}
+      {
+        "name": "Goalkeeper",
+        "role": "Protects the goal, only player who can use hands"
+      },
+      {
+        "name": "Defender",
+        "role": "Prevents opponents from scoring"
+      },
+      {
+        "name": "Midfielder",
+        "role": "Links defense and attack, controls tempo"
+      },
+      {
+        "name": "Forward/Striker",
+        "role": "Primary goal scorer"
+      }
     ],
     "howToPlay": "Two teams of 11 players each try to score by getting the ball into the opposing team's goal. Players move the ball primarily by kicking or heading it. The team with the most goals wins."
   },
@@ -50,7 +88,13 @@
     "category": "Individual Sports",
     "players": "1v1 or 2v2 (doubles)",
     "duration": "Best of 3 or 5 sets",
-    "equipment": ["Tennis racket", "Tennis balls", "Net", "Court", "Tennis shoes"],
+    "equipment": [
+      "Tennis racket",
+      "Tennis balls",
+      "Net",
+      "Court",
+      "Tennis shoes"
+    ],
     "rules": [
       "Ball must bounce once before being returned",
       "Service alternates between players each game",
@@ -59,8 +103,14 @@
       "Let serves (touching net on serve) are replayed"
     ],
     "positions": [
-      {"name": "Server", "role": "Initiates the point by serving"},
-      {"name": "Receiver", "role": "Returns the serve and rallies"}
+      {
+        "name": "Server",
+        "role": "Initiates the point by serving"
+      },
+      {
+        "name": "Receiver",
+        "role": "Returns the serve and rallies"
+      }
     ],
     "howToPlay": "Players hit a ball over a net into the opponent's court. Points are scored when the opponent fails to return the ball within bounds. Players must win games, sets, and ultimately the match."
   },
@@ -70,7 +120,14 @@
     "category": "Team Sports",
     "players": "11v11",
     "duration": "Varies: T20 (3 hours), ODI (8 hours), Test (5 days)",
-    "equipment": ["Cricket bat", "Cricket ball", "Stumps and bails", "Pads", "Helmet", "Gloves"],
+    "equipment": [
+      "Cricket bat",
+      "Cricket ball",
+      "Stumps and bails",
+      "Pads",
+      "Helmet",
+      "Gloves"
+    ],
     "rules": [
       "Batting team scores runs by hitting ball and running between wickets",
       "Bowling team tries to dismiss batsmen",
@@ -79,11 +136,217 @@
       "Six runs if ball crosses boundary without bouncing"
     ],
     "positions": [
-      {"name": "Batsman", "role": "Scores runs by hitting the ball"},
-      {"name": "Bowler", "role": "Delivers the ball to get batsman out"},
-      {"name": "Wicketkeeper", "role": "Stands behind stumps, catches ball, attempts run-outs"},
-      {"name": "Fielder", "role": "Prevents runs, attempts catches"}
+      {
+        "name": "Batsman",
+        "role": "Scores runs by hitting the ball"
+      },
+      {
+        "name": "Bowler",
+        "role": "Delivers the ball to get batsman out"
+      },
+      {
+        "name": "Wicketkeeper",
+        "role": "Stands behind stumps, catches ball, attempts run-outs"
+      },
+      {
+        "name": "Fielder",
+        "role": "Prevents runs, attempts catches"
+      }
     ],
     "howToPlay": "Two teams take turns batting and fielding. The batting team tries to score runs while the fielding team tries to get them out. The team with the most runs wins."
+  },
+  {
+    "id": 5,
+    "name": "Swimming",
+    "category": "Individual Sports",
+    "players": "Individual or relay teams",
+    "duration": "Varies by event (50m to 1500m)",
+    "equipment": [
+      "Swimsuit",
+      "Goggles",
+      "Swim cap",
+      "Pool"
+    ],
+    "rules": [
+      "Different strokes: freestyle, backstroke, breaststroke, butterfly",
+      "Must touch wall at end of each lap",
+      "False starts result in disqualification",
+      "Lane assignments based on qualifying times",
+      "Specific stroke rules for each style"
+    ],
+    "positions": [],
+    "howToPlay": "Swimmers race to complete a specific distance in the fastest time. Competitions include individual events and relay races. Different strokes have specific technique requirements."
+  },
+  {
+    "id": 6,
+    "name": "Volleyball",
+    "category": "Team Sports",
+    "players": "6v6",
+    "duration": "Best of 5 sets (25 points each)",
+    "equipment": [
+      "Volleyball",
+      "Net",
+      "Court",
+      "Knee pads"
+    ],
+    "rules": [
+      "Three touches maximum per side",
+      "Players rotate positions after winning serve",
+      "Ball cannot touch ground on your side",
+      "Cannot touch net during play",
+      "Rally scoring: point on every serve"
+    ],
+    "positions": [
+      {
+        "name": "Setter",
+        "role": "Sets up attacks, usually second touch"
+      },
+      {
+        "name": "Outside Hitter",
+        "role": "Primary attacker from left side"
+      },
+      {
+        "name": "Middle Blocker",
+        "role": "Blocks opponent attacks at net"
+      },
+      {
+        "name": "Libero",
+        "role": "Defensive specialist, wears different color"
+      }
+    ],
+    "howToPlay": "Teams hit a ball over a net, trying to make it land in the opponent's court. Each team has three touches to return the ball. First to 25 points (must win by 2) wins the set."
+  },
+  {
+    "id": 7,
+    "name": "Badminton",
+    "category": "Individual Sports",
+    "players": "1v1 or 2v2 (doubles)",
+    "duration": "Best of 3 games (21 points each)",
+    "equipment": [
+      "Badminton racket",
+      "Shuttlecock",
+      "Net",
+      "Court"
+    ],
+    "rules": [
+      "Shuttlecock must not touch ground",
+      "Service must be hit below waist",
+      "Rally scoring to 21 points (must win by 2)",
+      "Players switch sides after each game",
+      "Service courts change after each point in doubles"
+    ],
+    "positions": [
+      {
+        "name": "Server",
+        "role": "Initiates the rally"
+      },
+      {
+        "name": "Receiver",
+        "role": "Returns the serve"
+      }
+    ],
+    "howToPlay": "Players use rackets to hit a shuttlecock over a net. The shuttlecock must land in the opponent's court. Points are scored when opponent fails to return or hits out of bounds."
+  },
+  {
+    "id": 8,
+    "name": "Athletics (Track & Field)",
+    "category": "Individual Sports",
+    "players": "Individual",
+    "duration": "Varies by event",
+    "equipment": [
+      "Track",
+      "Running spikes",
+      "Starting blocks",
+      "Event-specific equipment (javelin, shot put, etc.)"
+    ],
+    "rules": [
+      "Sprint events: 100m, 200m, 400m",
+      "Middle distance: 800m, 1500m",
+      "Long distance: 5000m, 10000m, marathon",
+      "Field events: long jump, high jump, pole vault, shot put, discus, javelin",
+      "False starts result in disqualification"
+    ],
+    "positions": [],
+    "howToPlay": "Track and field includes running, jumping, and throwing events. Athletes compete for fastest times or longest/highest distances. Each event has specific techniques and rules."
+  },
+  {
+    "id": 9,
+    "name": "American Football",
+    "category": "Team Sports",
+    "players": "11v11",
+    "duration": "60 minutes (4 quarters)",
+    "equipment": [
+      "Football",
+      "Helmet",
+      "Shoulder pads",
+      "Cleats",
+      "Goal posts"
+    ],
+    "rules": [
+      "Teams have 4 downs to advance 10 yards",
+      "Touchdown: 6 points, Field goal: 3 points",
+      "Each play starts with a snap from center",
+      "Forward pass allowed only from behind line of scrimmage",
+      "Clock stops on incomplete passes and out of bounds"
+    ],
+    "positions": [
+      {
+        "name": "Quarterback",
+        "role": "Leads offense, throws passes"
+      },
+      {
+        "name": "Running Back",
+        "role": "Carries the ball, catches passes"
+      },
+      {
+        "name": "Wide Receiver",
+        "role": "Catches passes downfield"
+      },
+      {
+        "name": "Linebacker",
+        "role": "Defensive player, stops runs and passes"
+      }
+    ],
+    "howToPlay": "Two teams try to advance an oval ball into the opponent's end zone. Offense has four attempts (downs) to move 10 yards. Team with most points wins."
+  },
+  {
+    "id": 10,
+    "name": "Baseball",
+    "category": "Team Sports",
+    "players": "9v9",
+    "duration": "9 innings",
+    "equipment": [
+      "Baseball",
+      "Bat",
+      "Glove",
+      "Helmet",
+      "Bases"
+    ],
+    "rules": [
+      "3 strikes and you're out, 4 balls is a walk",
+      "3 outs end the inning",
+      "Run scored when player touches all bases and home plate",
+      "Fly balls caught in air result in an out",
+      "Runners can be tagged out between bases"
+    ],
+    "positions": [
+      {
+        "name": "Pitcher",
+        "role": "Throws the ball to batter"
+      },
+      {
+        "name": "Catcher",
+        "role": "Receives pitches, throws out runners"
+      },
+      {
+        "name": "Infielders",
+        "role": "Play near bases, field ground balls"
+      },
+      {
+        "name": "Outfielders",
+        "role": "Cover deep field, catch fly balls"
+      }
+    ],
+    "howToPlay": "Teams alternate between batting and fielding. Batters try to hit the ball and run bases. Fielders try to get batters and runners out. Team with most runs after 9 innings wins."
   }
 ]

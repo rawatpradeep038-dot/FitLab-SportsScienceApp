@@ -1,13 +1,14 @@
-import React from 'react';
-import { BookOpen } from 'lucide-react';
+import React, { useState } from 'react';
+import { Search, BookOpen } from 'lucide-react';
+import sportsData from '../data/sportsData.json';
+import SportCard from '../components/SportCard';
 
 const SportsEncyclopedia = () => {
-  const sports = [
-    { id: 1, name: 'Basketball', players: '5v5', category: 'Team Sports' },
-    { id: 2, name: 'Soccer', players: '11v11', category: 'Team Sports' },
-    { id: 3, name: 'Tennis', players: '1v1', category: 'Individual Sports' },
-    { id: 4, name: 'Cricket', players: '11v11', category: 'Team Sports' },
-  ];
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const filteredSports = sportsData.filter(sport => 
+    sport.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <div className="min-h-screen bg-gray-50 py-8">
@@ -17,13 +18,25 @@ const SportsEncyclopedia = () => {
           <h1 className="text-4xl font-bold text-gray-900">Sports Encyclopedia</h1>
         </div>
 
+        <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+          <div className="relative">
+            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
+            <input
+              type="text"
+              placeholder="Search sports (e.g., Basketball, Soccer, Tennis)..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500"
+            />
+          </div>
+          <p className="mt-3 text-sm text-gray-600">
+            Showing {filteredSports.length} of {sportsData.length} sports
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {sports.map(sport => (
-            <div key={sport.id} className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-2xl font-bold text-gray-800 mb-2">{sport.name}</h3>
-              <p className="text-gray-600">Players: {sport.players}</p>
-              <p className="text-gray-600">Category: {sport.category}</p>
-            </div>
+          {filteredSports.map(sport => (
+            <SportCard key={sport.id} sport={sport} />
           ))}
         </div>
       </div>
